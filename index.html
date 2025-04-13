@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="start_title">Loading new images website</h1>
+
+    <form method="post" action="/login" id="form-container">
+      <div id="div-form-user-picture">
+        <input
+          type="image"
+          id="form-picture-user"
+          name="form-picture-user"
+          required
+          src="./dontFound.png"
+        />
+        <label for="form-picture-user" id="label-add-picture"
+          >Add your picture ↑</label
+        >
+      </div>
+
+      <div id="div-form-user-info">
+        <label for="form-user-name">Enter your name:</label>
+        <input
+          type="text"
+          id="form-user-name"
+          name="form-user-name"
+          placeholder="Your name"
+          required
+          onkeyup="check();"
+        />
+
+        <label for="form-user-email">Enter your email:</label>
+        <input
+          type="email"
+          id="form-user-email"
+          name="form-user-email"
+          placeholder="Your email"
+          required
+          onkeyup="check();"
+        />
+
+        <button type="submit" id="button-badd-picture" disabled>
+          Add picture
+        </button>
+        <button type="reset" id="button-del-user-info">Delete my data</button>
+      </div>
+    </form>
+
+    <section class="list">
+      <h3 class="nameOfList">What do we want?</h3>
+      <ol>
+        <li>Beautiful picture</li>
+        <li>More beautiful picture</li>
+      </ol>
+    </section>
+
+    <div class="containerPs">
+      <p class="ps">
+        Thank for using my website<a class="my_name">(by Aleksander)</a>
+      </p>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
