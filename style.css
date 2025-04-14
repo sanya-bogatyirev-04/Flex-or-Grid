@@ -6,10 +6,21 @@ body {
     font-family: 'Cormorant Infant', cursive;
 }
 
-.start_title {
+.start-title {
     background: rgb(3, 59, 3);
     padding: 8px;
     margin: 0;
+    justify-items: center;
+}
+
+.start-title-text{
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 5, 5);
+    padding: 1%;
+    width: 700px;
+    font-size: 45px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .containerPs {
