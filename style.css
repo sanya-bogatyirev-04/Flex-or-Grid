@@ -72,3 +72,7 @@ button{
 #label-add-picture {
     margin-left: 25%;
 }
+
+#label-form-user-name, #label-form-user-email{
+    font-size: 30px;
+}
