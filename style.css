@@ -43,6 +43,15 @@ button {
     cursor: pointer;
 }
 
+input{
+    padding: 15px;
+}
+
+button{
+    background-color: rgb(24, 94, 24);
+    width: 100%;
+}
+
 #form-picture-user {
     border: 5px solid var(--border-color);
     background-color: rgb(24, 94, 24);
